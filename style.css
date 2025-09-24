@@ -1,0 +1,350 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    overflow: hidden; /* Prevent scrolling on the main body */
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #333;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    margin-right: 10px;
+    color: #1DB954; /* Spotify green-like color */
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    margin-bottom: 15px;
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navigation a:hover {
+    background-color: #333333;
+}
+
+.navigation a i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    border-bottom: 1px solid #333;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    border-radius: 25px;
+    padding: 5px 15px;
+    width: 400px;
+}
+
+.search-bar i {
+    margin-right: 10px;
+    color: #aaaaaa;
+}
+
+.search-bar input {
+    border: none;
+    background: none;
+    color: #ffffff;
+    outline: none;
+    flex-grow: 1;
+    padding: 5px 0;
+}
+
+.search-bar input::placeholder {
+    color: #aaaaaa;
+}
+
+.search-bar button {
+    background-color: #6a0dad; /* Purple button */
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #8a2be2;
+}
+
+.user-icons {
+    display: flex;
+    align-items: center;
+}
+
+.user-icons a {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.user-avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #6a0dad; /* Purple avatar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    overflow-y: auto;
+    flex-grow: 1;
+    padding-bottom: 100px; /* Space for the fixed audio player */
+}
+
+.album-item {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.album-item:hover {
+    background-color: #282828;
+}
+
+.album-item img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.album-item .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1DB954;
+    font-size: 24px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.album-item:hover .play-button {
+    opacity: 1;
+}
+
+.album-item .title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.album-item .artist {
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+.album-item .options {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #aaaaaa;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.album-item:hover .options {
+    opacity: 1;
+}
+
+.audio-player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border-top: 1px solid #333;
+    box-sizing: border-box;
+    height: 90px;
+}
+
+.audio-player .current-song {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.audio-player .album-art {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.audio-player .song-info .song-title {
+    font-weight: bold;
+}
+
+.audio-player .song-info .song-artist {
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+.audio-player .controls {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.audio-player .controls button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.audio-player .controls button:hover {
+    color: #1DB954;
+}
+
+.audio-player .progress-bar {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin: 0 20px;
+}
+
+.audio-player .progress-bar .current-time,
+.audio-player .progress-bar .total-time {
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+.audio-player .progress-bar .progress-slider {
+    flex-grow: 1;
+    margin: 0 10px;
+    -webkit-appearance: none;
+    height: 4px;
+    background: #555;
+    border-radius: 2px;
+    outline: none;
+}
+
+.audio-player .progress-bar .progress-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #1DB954;
+    cursor: pointer;
+}
+
+.audio-player .volume-control {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: flex-end;
+}
+
+.audio-player .volume-control button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.audio-player .volume-control .volume-slider {
+    width: 80px;
+    -webkit-appearance: none;
+    height: 4px;
+    background: #555;
+    border-radius: 2px;
+    outline: none;
+}
+
+.audio-player .volume-control .volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #1DB954;
+    cursor: pointer;
+}
+
+
