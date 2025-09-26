@@ -1,7 +1,7 @@
 ## Tâches à réaliser
 
 ### Phase 1: Analyser l'image et planifier la structure
-- [x] Identifier les styles CSS principaux (couleurs, polhing, espacements).
+- [x] styles CSS principaux (couleurs, polhing, espacements).
 - [x] Uploder les sons via liens de Supabase.
 - [ ] Rendre le site acessible sur tout à appareil( responsive)
 
