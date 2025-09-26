@@ -3,6 +3,7 @@
 ### Phase 1: Analyser l'image et planifier la structure
 - [x] Identifier les styles CSS principaux (couleurs, polhing, espacements).
 - [x] Uploder les sons via liens de Supabase.
+- [ ] Rendre le site acessible sur tout à appareil( responsive)
 
 ### Phase 2: Créer une barre en bas de lecture
 - [x] Ligne de lecture du son
