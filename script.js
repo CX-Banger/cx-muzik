@@ -7,88 +7,52 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const albums = [
         {
-            title: 'Dandelions',
-            artist: 'Ruth B.',
-            image: 'https://via.placeholder.com/180x180/6a0dad/ffffff?text=Dandelions',
-            audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3' // Placeholder audio
+            title: 'Freestyle Pour Dieu',
+            artist: 'Synaï B.',
+            image: 'https://mir-s3-cdn-cf.behance.net/projects/max_808/dcb976220763907.Y3JvcCw0MTI4LDMyMjksODQ4LDA.png',
+            audio: 'https://hrzmagjjobctkfxayokt.supabase.co/storage/v1/object/public/sons/artiste%202/son2.mp3' // Placeholder audio
         },
         {
-            title: 'Señorita',
-            artist: 'Shawn Mendes',
-            image: 'https://via.placeholder.com/180x180/8a2be2/ffffff?text=Senorita',
-            audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3' // Placeholder audio
+            title: 'Obsédé',
+            artist: 'NAN(Rap-Gospel)',
+            image: 'https://mir-s3-cdn-cf.behance.net/projects/max_808/aa3cc6234948753.Y3JvcCw2OTYsNTQ0LDAsMzU1.jpg',
+            audio: 'https://hrzmagjjobctkfxayokt.supabase.co/storage/v1/object/public/sons/artiste%201/son2.mp3' // Placeholder audio
         },
         {
-            title: 'Heat Waves',
-            artist: 'Glass Animals',
-            image: 'https://via.placeholder.com/180x180/4b0082/ffffff?text=Heat+Waves',
-            audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3' // Placeholder audio
+            title: 'In God',
+            artist: 'Elihem',
+            image: 'https://mir-s3-cdn-cf.behance.net/projects/max_808/eeb832220671177.Y3JvcCwxMDA3LDc4OCwxOTcsMA.png',
+            audio: 'https://hrzmagjjobctkfxayokt.supabase.co/storage/v1/object/public/sons/artiste%203/son1.mp3' // Placeholder audio
         },
         {
-            title: 'Mood',
-            artist: '24kgoldn',
-            image: 'https://via.placeholder.com/180x180/9932cc/ffffff?text=Mood',
+            title: 'Sara 1',
+            artist: 'Sara',
+            image: 'https://mir-s3-cdn-cf.behance.net/projects/max_808/f7c5fd158248381.Y3JvcCwyNDcyLDE5MzQsNjczLDIyMA.png',
             audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3' // Placeholder audio
         },
         {
-            title: 'Sweater Weather',
-            artist: 'The Neighbourhood',
-            image: 'https://via.placeholder.com/180x180/da70d6/ffffff?text=Sweater+Weather',
-            audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3' // Placeholder audio
+            title: 'Cendrillon',
+            artist: 'Kalynn',
+            image: 'https://mir-s3-cdn-cf.behance.net/projects/max_808/6fcad6197383229.Y3JvcCwyNzYxLDIxNjAsNjIyLDA.png',
+            audio: 'https://hrzmagjjobctkfxayokt.supabase.co/storage/v1/object/public/sons/artiste%205/son1.mp3' // Placeholder audio
         },
         {
-            title: 'Dancin (Krono Remix)',
-            artist: 'Aaron Smith',
-            image: 'https://via.placeholder.com/180x180/ba55d3/ffffff?text=Dancin',
+            title: 'Melohim (Remix)',
+            artist: 'Melohim',
+            image: 'https://mir-s3-cdn-cf.behance.net/projects/max_808/ea22b0160624529.Y3JvcCwxNjY5LDEzMDUsMTE5LDE1Nw.png',
             audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3' // Placeholder audio
         },
         {
-            title: 'No Lie',
-            artist: 'Sean Paul',
-            image: 'https://via.placeholder.com/180x180/9370db/ffffff?text=No+Lie',
+            title: 'Tiim 1',
+            artist: 'Tiim',
+            image: 'https://mir-s3-cdn-cf.behance.net/projects/max_808/6c20fc220690051.Y3JvcCw4OTQsNzAwLDI1Miww.png',
             audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3' // Placeholder audio
         },
         {
-            title: 'Stereo Hearts (feat. Adam Levine)',
-            artist: 'Gym Class Heroes',
-            image: 'https://via.placeholder.com/180x180/8a2be2/ffffff?text=Stereo+Hearts',
+            title: 'Math 1',
+            artist: 'Math',
+            image: 'https://github.com/CX-Banger/cx-devdocs/blob/main/cover-album/one-way-jesus.jpg?raw=true',
             audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3' // Placeholder audio
-        },
-        {
-            title: 'Eenie Meenie',
-            artist: 'Sean Kingston, Justin Bieber',
-            image: 'https://via.placeholder.com/180x180/6a0dad/ffffff?text=Eenie+Meenie',
-            audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3' // Placeholder audio
-        },
-        {
-            title: 'Into Your Arms',
-            artist: 'Witt Lowry',
-            image: 'https://via.placeholder.com/180x180/8a2be2/ffffff?text=Into+Your+Arms',
-            audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3' // Placeholder audio
-        },
-        {
-            title: 'Savage Love',
-            artist: 'Jason Derulo, Jawsh 685',
-            image: 'https://via.placeholder.com/180x180/4b0082/ffffff?text=Savage+Love',
-            audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3' // Placeholder audio
-        },
-        {
-            title: 'One Direction',
-            artist: 'One Direction',
-            image: 'https://via.placeholder.com/180x180/9932cc/ffffff?text=One+Direction',
-            audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3' // Placeholder audio
-        },
-        {
-            title: 'Blinding Lights',
-            artist: 'The Weeknd',
-            image: 'https://via.placeholder.com/180x180/da70d6/ffffff?text=Blinding+Lights',
-            audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3' // Placeholder audio
-        },
-        {
-            title: 'Starboy',
-            artist: 'The Weeknd ft. Daft Punk',
-            image: 'https://via.placeholder.com/180x180/ba55d3/ffffff?text=Starboy',
-            audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3' // Placeholder audio
         }
     ];
 
@@ -139,4 +103,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
     loadAlbumGrid();
 });
-
