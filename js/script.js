@@ -521,10 +521,10 @@ const heroArt = document.getElementById('heroArt');
 if (heroArt) {
   heroArt.addEventListener('click', () => {
     const obsedeSong = {
-      title: 'Intro',
-      artist: 'Tiim',
-      src: 'https://hrzmagjjobctkfxayokt.supabase.co/storage/v1/object/public/sons/artiste7/son2.mp3',
-      thumb: `${GITHUB_BASE_URL}/op/cv/artiste7/cover2.jpg`
+      title: 'Kill My Flesh',
+      artist: 'Eilynn',
+      src: 'https://hrzmagjjobctkfxayokt.supabase.co/storage/v1/object/public/sons/artiste5/son12.mp3',
+      thumb: `${GITHUB_BASE_URL}/op/cv/artiste5/cover12.jpg`
     };
     playlist = [obsedeSong];
     currentIndex = 0;
