@@ -523,7 +523,7 @@ if (heroArt) {
   heroArt.addEventListener('click', () => {
     const obsedeSong = {
       title: 'Kill My Flesh',
-      artist: 'Eilynn',
+      artist: 'Eilynn, Elihem',
       src: 'https://hrzmagjjobctkfxayokt.supabase.co/storage/v1/object/public/sons/artiste5/son12.mp3',
       thumb: `${GITHUB_BASE_URL}/op/cv/artiste5/cover12.jpg`
     };
