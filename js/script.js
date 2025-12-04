@@ -154,12 +154,12 @@ function renderFeatured() {
   featuredDiv.innerHTML = '';
 
   const featuredAlbums = [
-    { title: "Kill My Flesh ft Elihem", artist: "Eilynn", cover: `${GITHUB_BASE_URL}/op/cv/artiste5/cover11.jpg`, artistIndex: 4, trackIndex: 12 },
+    { title: "Kill My Flesh", artist: "Eilynn", cover: `${GITHUB_BASE_URL}/op/cv/artiste5/cover12.jpg`, artistIndex: 4, trackIndex: 12 },
     { title: "Intro", artist: "Tiim", cover: `${GITHUB_BASE_URL}/op/cv/artiste7/cover2.jpg`, artistIndex: 6, trackIndex: 1 },
     { title: "Zone à danger", artist: "Raph", cover: `${GITHUB_BASE_URL}/op/cv/artiste9/cover1.jpg`, artistIndex: 8, trackIndex: 0 },
     { title: "Sé ou épi mwen", artist: "Eilynn", cover: `${GITHUB_BASE_URL}/op/cv/artiste5/cover11.jpg`, artistIndex: 4, trackIndex: 10 },
     { title: "Muy Bonito ft Eilynn", artist: "Synaï", cover: `${GITHUB_BASE_URL}/op/cv/artiste2/cover14.jpg`, artistIndex: 1, trackIndex: 13 },
-    { title: "Kill My Flesh ft Eilynn", artist: "Elihem", cover: `${GITHUB_BASE_URL}/op/cv/artiste3/cover8.jpg`, artistIndex: 2, trackIndex: 7 },
+    { title: "Kill My Flesh", artist: "Elihem", cover: `${GITHUB_BASE_URL}/op/cv/artiste3/cover8.jpg`, artistIndex: 2, trackIndex: 7 },
     { title: "Je t aime ft Synaï", artist: "Sara", cover: `${GITHUB_BASE_URL}/op/cv/artiste4/cover5.jpg`, artistIndex: 3, trackIndex: 4 },
     { title: "Sans Effet", artist: "NAN", cover: `${GITHUB_BASE_URL}/op/cv/artiste1/cover21.jpg`, artistIndex: 0, trackIndex: 20 },
     { title: "Ma Carrière", artist: "Melohim", cover: `${GITHUB_BASE_URL}/op/cv/artiste6/cover1.jpg`, artistIndex: 5, trackIndex: 0 }
