@@ -322,7 +322,7 @@ body {
 .cover {
   width: 48px;
   height: 48px;
-  border-radius: 8px;
+  border-radius: 4px;  /* arrondie du cover dans la page artiste */
   object-fit: cover;
 }
 
@@ -716,7 +716,7 @@ body {
   width: 100%;
   max-width: 280px;
   aspect-ratio: 1;
-  border-radius: 16px;
+  border-radius: 0px;   /* arrondi du cover dans le full player ouvert */
   object-fit: cover;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
