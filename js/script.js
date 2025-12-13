@@ -154,7 +154,7 @@ function renderFeatured() {
   featuredDiv.innerHTML = '';
 
   const featuredAlbums = [
-    { title: "Kill My Flesh", artist: "Eilynn", cover: `${GITHUB_BASE_URL}/op/cv/artiste5/cover12.jpg`, artistIndex: 4, trackIndex: 12 },
+    { title: "Kill My Flesh", artist: "Eilynn", cover: `${GITHUB_BASE_URL}/op/cv/artiste5/cover12.jpg`, artistIndex: 4, trackIndex: 11 },
     { title: "Intro", artist: "Tiim", cover: `${GITHUB_BASE_URL}/op/cv/artiste7/cover2.jpg`, artistIndex: 6, trackIndex: 1 },
     { title: "Zone à danger", artist: "Raph", cover: `${GITHUB_BASE_URL}/op/cv/artiste9/cover1.jpg`, artistIndex: 8, trackIndex: 0 },
     { title: "Muy Bonito ft Eilynn", artist: "Synaï", cover: `${GITHUB_BASE_URL}/op/cv/artiste2/cover14.jpg`, artistIndex: 1, trackIndex: 13 },
