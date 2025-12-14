@@ -249,7 +249,7 @@ body {
   transition: transform 0.2s;
   flex-shrink: 0;
   overflow: hidden;
-  background: #1a1a1a;
+  background: #121212;   /* couleur arrière plan du son à la une en dessous de la section artiste */
   display: flex;
   flex-direction: column;
 }
