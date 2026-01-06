@@ -1,0 +1,79 @@
+# Code légal Creative Commons
+
+Licence restrictive CC BY 1.0
+
+    L'AUTEUR N'EST PAS UN CABINET D'AVOCATS ET NE FOURNIT PAS DE SERVICES JURIDIQUES.
+    LA DIFFUSION DE CE DOCUMENT NE CRÉE PAS DE RELATION AVOCAT-CLIENT.
+    CES INFORMATIONS SONT FOURNIES "TELS QUELS". L'AUTEUR NE GARANTIT AUCUNE UTILISATION
+    DE CE DOCUMENT OU DES INFORMATIONS OU ŒUVRES FOURNIES, ET DÉCLINE TOUTE
+    RESPONSABILITÉ POUR LES DOMMAGES RÉSULTANT DE L'UTILISATION DE CE DOCUMENT
+    OU DES INFORMATIONS OU ŒUVRES FOURNIES.
+
+---
+
+## Déclaration d'intention
+
+Les lois de la plupart des juridictions dans le monde confèrent automatiquement  
+des droits exclusifs de droit d’auteur et droits connexes (définis ci-dessous)  
+au créateur et aux propriétaires successifs (chacun et tous, un "propriétaire")  
+d'une œuvre originale d'auteur et/ou d'une base de données (chacune, une "Œuvre").
+
+L'Auteur souhaite permettre au public de **consulter et citer** l’Œuvre, tout en  
+interdisant strictement toute utilisation commerciale, modification, adaptation ou redistribution.  
+Cette licence a pour but de préserver tous les droits de l’Auteur tout en autorisant un accès limité pour citation uniquement.
+
+---
+
+## 1. Droits d’auteur et droits connexes
+
+Une Œuvre mise à disposition sous cette licence peut être protégée par le droit d’auteur  
+et les droits connexes ou voisins ("Droits d’Auteur et Connexes"). Ces droits incluent,  
+sans s’y limiter, les éléments suivants :
+
+  i. le droit de reproduire, adapter, distribuer, exécuter, afficher,  
+     communiquer et traduire l’Œuvre ;  
+ ii. les droits moraux conservés par l’auteur(s) et/ou interprète(s) ;  
+iii. les droits à l’image et à la vie privée d’une personne représentée dans l’Œuvre ;  
+ iv. les droits protégeant contre la concurrence déloyale concernant l’Œuvre ;  
+  v. les droits sur l’extraction, la diffusion, l’utilisation et la réutilisation de données  
+     dans l’Œuvre ;  
+ vi. les droits sur les bases de données et autres droits similaires, équivalents ou correspondants  
+     dans le monde entier selon la loi ou les traités applicables.
+
+Tous les droits sont conservés par l’Auteur, sauf ceux expressément accordés ci-dessous.
+
+---
+
+## 2. Octroi de licence
+
+Dans la mesure permise par la loi, l’Auteur accorde au public les droits suivants :
+
+    i. Vous pouvez consulter, lire et citer l’Œuvre en mentionnant l’Auteur.
+
+Aucune autre utilisation n’est permise :
+
+    - Pas d’usage commercial : l’Œuvre **ne peut pas** être utilisée à des fins commerciales.  
+    - Pas de modification : l’Œuvre **ne peut pas** être adaptée, transformée, traduite ou modifiée.  
+    - Pas de redistribution : l’Œuvre **ne peut pas** être partagée, copiée ou mise à disposition ailleurs.
+
+---
+
+## 3. Limitations et exclusions de garantie
+
+ a. Les droits de marque ou brevets détenus par l’Auteur ne sont ni abandonnés,  
+    ni cédés, ni affectés par ce document.  
+ b. L’Œuvre est fournie **telle quelle** et l’Auteur ne fait aucune déclaration  
+    ni garantie d’aucune sorte, expresse ou implicite, y compris notamment sur le titre,  
+    la qualité marchande, l’adéquation à un usage particulier, la non-contrefaçon  
+    ou l’absence d’erreurs ou de défauts, dans la mesure permise par la loi.  
+ c. L’Auteur décline toute responsabilité quant aux droits détenus par des tiers  
+    sur l’Œuvre et n’est pas tenu d’obtenir des autorisations pour le contenu de tiers.  
+ d. L’Auteur reconnaît que Creative Commons ou toute autre entité **n’est pas partie**  
+    à cette licence et n’a aucune responsabilité concernant l’utilisation de l’Œuvre.
+
+---
+
+## 4. Durée et territoire
+
+Cette licence est valable **dans le monde entier** et pour **toute la durée des droits d’auteur**.  
+Tous les droits non expressément accordés dans ce document sont **réservés à l’Auteur**.
