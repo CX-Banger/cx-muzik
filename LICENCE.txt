@@ -11,7 +11,7 @@ Licence restrictive CC BY 1.0
 
 ---
 
-## Déclaration d'intention
+Déclaration d'intention
 
 Les lois de la plupart des juridictions dans le monde confèrent automatiquement  
 des droits exclusifs de droit d’auteur et droits connexes (définis ci-dessous)  
@@ -24,7 +24,7 @@ Cette licence a pour but de préserver tous les droits de l’Auteur tout en aut
 
 ---
 
-## 1. Droits d’auteur et droits connexes
+1. Droits d’auteur et droits connexes
 
 Une Œuvre mise à disposition sous cette licence peut être protégée par le droit d’auteur  
 et les droits connexes ou voisins ("Droits d’Auteur et Connexes"). Ces droits incluent,  
@@ -44,7 +44,7 @@ Tous les droits sont conservés par l’Auteur, sauf ceux expressément accordé
 
 ---
 
-## 2. Octroi de licence
+2. Octroi de licence
 
 Dans la mesure permise par la loi, l’Auteur accorde au public les droits suivants :
 
@@ -58,7 +58,7 @@ Aucune autre utilisation n’est permise :
 
 ---
 
-## 3. Limitations et exclusions de garantie
+3. Limitations et exclusions de garantie
 
  a. Les droits de marque ou brevets détenus par l’Auteur ne sont ni abandonnés,  
     ni cédés, ni affectés par ce document.  
@@ -73,7 +73,7 @@ Aucune autre utilisation n’est permise :
 
 ---
 
-## 4. Durée et territoire
+4. Durée et territoire
 
 Cette licence est valable **dans le monde entier** et pour **toute la durée des droits d’auteur**.  
 Tous les droits non expressément accordés dans ce document sont **réservés à l’Auteur**.
